@@ -1,0 +1,43 @@
+.menubar {
+    border: 0;
+    background: linear-gradient(320deg, rgba(145, 36, 169, 1) 0%,
+        rgba(191, 22, 145, 1) 100%), linear-gradient(rgba(205, 18, 137, 1) 0%,
+        rgba(238, 127, 54, 1) 100%);
+    padding: 0px 0;
+    background-clip: padding-box, text, padding-box;
+    transition: .4s;
+  }
+  
+  .menubar-in {
+    display: flex;
+  }
+  
+  .menubar-in {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+  
+  .menubar-in li.nav-right-item {
+    /* float: left; */
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menubar-in li a {
+    font-size: 15px;
+    padding: 10px 30px;
+    font-weight: 500;
+  }
+  
+  .menubar-in li a:hover,
+  .menubar-in li a.selected,
+  .menubar-in li a:focus {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 13px;
+    /* font-weight: 500; */
+    /* padding: 10px 30px; */
+  }
+  
